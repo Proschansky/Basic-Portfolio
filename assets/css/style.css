@@ -9,16 +9,19 @@
     }
 
     .btn {
+        align-content: center;
         border: none;
         bottom: 60px;
         background-color: #4aaaa5;
         color: white;
         cursor: pointer;
+        display: flex;
         font-size: 1.5em;
         font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
-        height: 50px;
-        padding: 12px,24px,0px,12px;
+        height: 60px;
+        padding: 24px,24px,0px,12px;
         position: relative;
+        text-align: center;
         width: 100%;
       }
     
@@ -280,4 +283,9 @@
         padding-left: 30px;
         padding-right: 30px;
         width: 960px;
+    }
+
+    #bender {
+        height: 200px;
+        width:200px;
     }
